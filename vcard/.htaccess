@@ -1,0 +1,57 @@
+## One TCP connection - faster transfer
+<ifModule mod_headers.c> 
+	Header set Connection keep-alive
+ </ifModule>
+
+## EXPIRES CACHING - for more caching ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType text/html "access 1 day"
+ExpiresByType application/pdf "access 1 day"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 month"
+</IfModule>
+## EXPIRES CACHING ##
+
+
+Options -Indexes
+ErrorDocument 403 http://fotobudka.lublin.pl
+
+
+
+# SITE NAVIGATION
+
+# Checks to see if the user is attempting to access a valid file,
+# such as an image or css document, if this isn't true it sends the
+# request to index.html
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule !\.(css|gif|jpg|jpeg|png|ico|txt|js|pdf|html)$ /home/cf/public_html/vcard/index.html [NC,L]
+
+
+#By nie działały botnety czesto dzialajace jako libwww-perl
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+RewriteRule .* – [F,L]
+
+
+## fotobudka.lublin.pl
+# SEO not index IP
+	RewriteEngine  on
+	RewriteCond %{HTTP_HOST} ^212\.182\.24\.34\/vcard
+	RewriteRule (.*) http://fotobudka.lublin.pl/$1 [R=301,L]
+
+# SEO redirect fotobudka.lublin.pl to www.fotobudka.lublin.pl
+
+	RewriteEngine On
+#	RewriteCond %{HTTP_HOST} ^fotobudka.lublin.pl$ [NC]
+#	RewriteRule ^(.*)$ http://www.fotobudka.lublin.pl%{REQUEST_URI} [R=301,L]
+
+	RewriteCond %{HTTP_HOST} ^www\.fotobudka\.lublin.pl\.pl$ [NC]
+   	RewriteRule ^(.*)$ http://fotobudka.lublin.pl%{REQUEST_URI} [R=301,L]

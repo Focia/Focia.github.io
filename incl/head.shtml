@@ -1,0 +1,82 @@
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	
+	<meta name="robots" content="noimageindex, follow">
+	<meta name="description" content="Fotobudka Lublin, atrakcje weselne wynajem fotobudki na wesele, event, imprezę, zabawę w Lublinie, Zamościu, Rzeszowie, fotobudka na wynajem, 
+	  pomysł na prezent, prezent dla Państwa Młodych?, koniec Twojego problemu, Zarezerwuj termin CrazyFoci, Zapewniamy zabawę i uśmiech Twoich gości " />
+<meta name="keywords" content="CrazyFocia, crazy focia, Fotobudka Lublin,  Rzeszów, Rzeszowie, Zamość, Zamościu, wynajem fotobudki na wesele w Lublinie, fotobudka na wynajem, lubelskie, tanio, dobra zabawa, fotobudka na imprezę, najtaniej, atrakcja, foto, Green screen, GreenSCREEN budka, polaroid, zdjęcia, szybkie zdjęcia, Fotobutka, Fotokabina, Foto budka, Fotopstryczek, atrakcja, atrakcje weselne, dodatki weselne, budka fotograficzna, animator, w pakiecie taniej ">
+
+	<title>Crazy Focia - MagicBOX - Najlepsza i najtańsza atrakcja na Twoje Wesele! </title>
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    
+    <!-- Favicons
+  ================================================== -->
+	<!-- Basic favicons -->
+	<link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="images/favicon/favicon.ico"> 
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon/favicon.ico">
+	<!--[if IE]><link rel="shortcut icon" href="/favicon.ico"><![endif]-->
+	<!-- For Opera Speed Dial -->
+	<link rel="icon" type="image/png" sizes="195x195" href="images/favicon/favicon-195.png">
+	<!-- For iPad with high-resolution Retina Display running iOS ≥ 7 -->
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/favicon-152.png">
+	<!-- For iPad with high-resolution Retina Display running iOS ≤ 6 -->
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/favicon-144.png">
+	<!-- For iPhone with high-resolution Retina Display running iOS ≥ 7 -->
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/favicon-120.png">
+	<!-- For iPhone with high-resolution Retina Display running iOS ≤ 6 -->
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/favicon-114.png">
+	<!-- For Google TV devices -->
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96.png">
+	<!-- For iPad Mini -->
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/favicon-76.png">
+	<!-- For first- and second-generation iPad -->
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/favicon-72.png">
+	<!-- For non-Retina iPhone, iPod Touch and Android 2.1+ devices -->
+	<link rel="apple-touch-icon" href="images/favicon/favicon-57.png">
+	<!-- Windows 8 Tiles -->
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="images/favicon/favicon-144.png">
+
+	<!-- CSS
+  ================================================== -->
+   <link href='http://fonts.googleapis.com/css?family=Special+Elite|Lobster|Limelight|Racing+Sans+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'> 
+	
+	<link rel="stylesheet" href="stylesheets/base.css">	
+   <link rel="stylesheet" href="stylesheets/style.css">
+   <link rel="stylesheet" href="stylesheets/moje.css">
+	
+	<!-- jQuery 1.x import 
+	================================================== -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+	<!-- Jak nawali CDN googla to bierze lokalnie starszą wersje jQuery: -->
+		<script type="text/javascript">
+    			if (typeof jQuery == 'undefined') {
+        			document.write(unescape("%3Cscript src='/javascripts/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
+    		}
+		</script>
+
+   <!-- Modernizr
+  ================================================== -->
+    <script src="javascripts/modernizr.js"></script>
+    
+ 	<!-- Frame Remover
+ 	=================================================== -->
+ 		<script type="text/javascript">
+			if(location.href != top.location.href){ 
+				window.top.location.href = location.href; }
+	 	</script>
+	 	
+	 <!-- uikit () - ruchome teksty/smooth scroll
+	===================================================-->
+   <link rel="stylesheet" href="assets/uikit-2.6.0/css/uikit_noBase.css" >   
+   <script src="assets/uikit-2.6.0/js/uikit.min.js"></script>  
+ 	
+ 	
+</head>
