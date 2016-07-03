@@ -459,7 +459,7 @@ h2 .wesele-header {
 /* BIZNES
 ================================== */
 .port-top-section-biznes {
-    background: url('../images/_Podstrony/biznes/standout3-maly.jpg');
+    background: url('../images/Podstrony/biznes/standout3-maly.jpg');
        /* background-attachment: fixed; konflikt w uikit w chrome ginie tlo paralaxy gdy transformacje*/
     background-size: cover;
     text-align: center;
@@ -484,13 +484,13 @@ h2 .wesele-header {
 	font-size:30px;
 }
 .port-bot-section-biznes {
-    background: url('../images/_Podstrony/biznes/event3.jpg');
+    background: url('../images/Podstrony/biznes/event3.jpg');
    /* background-attachment: fixed; konflikt w uikit w chrome ginie tlo paralaxy gdy transformacje*/
     background-size: cover;
 }
 
 .tlo-cen-biznes{
-    background: url('../images/_Podstrony/biznes/event2.jpg');
+    background: url('../images/Podstrony/biznes/event2.jpg');
        /* background-attachment: fixed; konflikt w uikit w chrome ginie tlo paralaxy gdy transformacje*/
     background-size: cover;
 }
@@ -498,7 +498,7 @@ h2 .wesele-header {
 .mt150{ padding-top: 150px;}
 	
 .ghost-gwaran{
-	background: url('../images/_Podstrony/biznes/gwarancja.png');
+	background: url('../images/Podstrony/biznes/gwarancja.png');
 	position: absolute;
 	right: -50px;
 	top: -40px;
@@ -514,7 +514,7 @@ h2 .wesele-header {
 /* 100dniowka
 ================================== */
 .port-top-section-studniowka {
-    background: url('../images/_Podstrony/100/tlo-male.jpg');
+    background: url('../images/Podstrony/100/tlo-male.jpg');
        /* background-attachment: fixed; konflikt w uikit w chrome ginie tlo paralaxy gdy transformacje*/
     background-size: cover;
     text-align: center;
@@ -544,7 +544,7 @@ h2 .wesele-header {
 .mt150{ padding-top: 150px;}
 
 .tlo-cen-studniowka{
-    background: url('../images/_Podstrony/100/tloheader-male.jpg');
+    background: url('../images/Podstrony/100/tloheader-male.jpg');
        /* background-attachment: fixed; konflikt w uikit w chrome ginie tlo paralaxy gdy transformacje*/
     background-size: cover;
 }
@@ -570,7 +570,7 @@ h2 .wesele-header {
 
 
 .tlo-cen-urodziny{
-    background: url('../images/_Podstrony/urodziny/prezent1.png');
+    background: url('../images/Podstrony/urodziny/prezent1.png');
        /* background-attachment: fixed; konflikt w uikit w chrome ginie tlo paralaxy gdy transformacje*/
     background-size: cover;
 }
